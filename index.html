@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ISOGANIC — custom hand-painted murals by Arizona artist Tyler Currier. Explore the work and build your mural project brief.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#070b15">
+  <title>ISOGANIC — Art made for your walls</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="orbit.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a href="#top" class="brand" aria-label="ISOGANIC home"><img src="assets/mark.svg" alt="" width="33" height="33"><span>ISOGANIC<span class="brand-sub">MURAL STUDIO</span></span></a>
+      <nav aria-label="Main navigation"><a href="#work">The work</a><a href="#process">The process</a><a class="button button-small" href="#brief">Start a project</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dash"></span> Arizona · Custom mural art</p>
+        <h1 id="hero-title">Make the<br> wall <em>matter.</em></h1>
+        <p class="hero-lede">Bold shapes. Honest color. Art that belongs exactly where it’s painted.</p>
+        <p class="hero-description">I'm Tyler Currier, the artist behind ISOGANIC. I design and hand-paint original murals for homes, businesses and public spaces — from a single accent wall to an entire building.</p>
+        <div class="actions"><a href="#brief" class="button">Build my project brief</a><a href="#work" class="button button-outline">Explore the work</a></div>
+        <div class="hero-foot"><span class="mini-swatches" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Designed for the space. Painted by hand.</span></div>
+      </div>
+      <figure class="hero-figure">
+        <img src="assets/fcp-hero.webp" alt="Close-up of ISOGANIC's large FCP Euro mural with a golden sun, angular red desert mountains, saguaros, and two blue and black off-road vehicles" fetchpriority="high" width="1267" height="886">
+        <figcaption><span><strong>FCP EURO</strong> / Commercial mural</span><span>ARIZONA DESERT</span></figcaption>
+        <span class="corner corner-top" aria-hidden="true"></span><span class="corner corner-bottom" aria-hidden="true"></span>
+      </figure>
+    </section>
+    <section class="band" aria-label="Mural services"><div class="wrap band-inner"><span>RESIDENTIAL</span><span class="diamond"></span><span>COMMERCIAL</span><span class="diamond"></span><span>INTERIOR &amp; EXTERIOR</span><span class="diamond"></span><span>SITE-SPECIFIC ART</span></div></section>
+
+    <section id="work" class="wrap section work-section" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">Selected work / Style directions</p><h2 id="work-title">A wall, <em>reimagined.</em></h2></div><p>Explore hand-painted projects and a few design studies. Pick a direction that speaks to you — every mural is designed for your own wall.</p></div>
+      <div class="filter-line"><div class="filters" role="group" aria-label="Filter mural styles"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All styles</button><button class="filter" type="button" data-filter="residential" aria-pressed="false">Residential</button><button class="filter" type="button" data-filter="commercial" aria-pressed="false">Commercial</button></div><span id="gallery-count" aria-live="polite">6 style directions</span></div>
+      <div class="gallery" id="gallery"></div>
+      <p class="gallery-note"><span class="note-line"></span> Painted projects are photographed in the real space. Design studies show a possible direction, not a completed installation.</p>
+    </section>
+
+    <section class="process-section" id="process" aria-labelledby="process-title">
+      <div class="wrap process-inner"><div class="process-intro"><p class="eyebrow inverse">The approach</p><h2 id="process-title">From blank wall<br> to <em>something yours.</em></h2><p>Whether it's a home with a story or a business that needs a statement, the work begins with the space itself.</p></div>
+        <div class="process-steps"><div class="process-step"><span class="step-index">01</span><div><h3>Tell me about the wall</h3><p>Send approximate measurements, location, photos and what you want the space to feel like.</p></div></div><div class="process-step"><span class="step-index">02</span><div><h3>Find the right design</h3><p>We discuss direction, detail, budget and a concept that makes sense for your space.</p></div></div><div class="process-step"><span class="step-index">03</span><div><h3>Bring it to life</h3><p>Once the scope and design are agreed, we schedule the painting and create the mural on site.</p></div></div></div>
+      </div>
+    </section>
+
+    <section id="brief" class="wrap section brief-section" aria-labelledby="brief-title">
+      <div class="section-heading brief-heading"><div><p class="eyebrow"><span class="dash"></span> Project inquiry</p><h2 id="brief-title">Let’s make it <em>real.</em></h2></div><p>No exact plan needed. Tell me a little about your project and copy a short, ready-to-send brief. We'll figure out the details together.</p></div>
+      <div class="builder-layout">
+        <form id="project-form" class="project-form" novalidate>
+          <fieldset class="form-section">
+            <legend><span class="form-number">01</span> What's the space?</legend>
+            <div class="choice-grid type-grid">
+              <label class="choice-card"><input type="radio" name="type" value="Residential" required><span class="choice-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M3 15L16 4l13 11M6 13v15h20V13M12 28V18h8v10" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span><span><strong>Residential</strong><small>Home, backyard, kids' room</small></span><span class="radio-mark"></span></label>
+              <label class="choice-card"><input type="radio" name="type" value="Commercial" required><span class="choice-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M4 29V10l12-6v25M16 13h12v16M2 29h28M8 13v3m4-5v3m-4 6v3m4-5v3m8-4h4m-4 5h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Commercial</strong><small>Business, venue, community</small></span><span class="radio-mark"></span></label>
+            </div><p class="field-error" id="type-error" hidden>Choose residential or commercial.</p>
+            <div class="two-fields space-fields"><label class="field">Location <span class="optional">optional</span><input type="text" name="location" placeholder="City, state" maxlength="100" autocomplete="address-level2"></label><label class="field">Wall setting<select name="setting"><option value="Not sure yet">Not sure yet</option><option>Interior</option><option>Exterior</option><option>Both / multiple walls</option></select></label></div>
+          </fieldset>
+          <fieldset class="form-section">
+            <legend><span class="form-number">02</span> Pick a style direction</legend>
+            <p class="field-help">Choose one that feels close. It doesn't need to be exact.</p>
+            <div class="style-options" id="style-options" role="group" aria-label="Preferred mural style"></div>
+          </fieldset>
+          <fieldset class="form-section">
+            <legend><span class="form-number">03</span> Rough wall dimensions</legend>
+            <p class="field-help">Enter the approximate width and height of the area to paint, in feet.</p>
+            <div class="two-fields dimension-fields"><label class="field">Width <div class="input-unit"><input id="width" name="width" type="number" inputmode="decimal" min="0.1" max="2000" step="any" placeholder="12" aria-describedby="dimensions-error"><span>ft</span></div></label><label class="field">Height <div class="input-unit"><input id="height" name="height" type="number" inputmode="decimal" min="0.1" max="2000" step="any" placeholder="8" aria-describedby="dimensions-error"><span>ft</span></div></label></div>
+            <label class="check"><input name="unknownSize" type="checkbox"> I haven't measured it yet</label>
+            <p class="field-error" id="dimensions-error" hidden>Enter a positive width and height (up to 2,000 ft), or choose “I haven't measured it yet.”</p>
+          </fieldset>
+          <fieldset class="form-section">
+            <legend><span class="form-number">04</span> What budget feels realistic?</legend>
+            <p class="field-help">A range helps us match the design and scale. This is not a quote.</p>
+            <div class="budget-options" id="budget-options"></div><p id="budget-error" class="field-error" hidden>Choose a budget range or “Not sure yet.”</p>
+          </fieldset>
+          <fieldset class="form-section last-section">
+            <legend><span class="form-number">05</span> Anything else?</legend>
+            <label class="field">Ideal timing <span class="optional">optional</span><select name="timing"><option value="Flexible / not decided">Flexible / not decided</option><option>Within a month</option><option>1–3 months</option><option>3+ months</option><option>Specific event or deadline (see notes)</option></select></label>
+            <label class="field notes-field">Your vision <span class="optional">optional</span><textarea name="notes" rows="4" maxlength="600" placeholder="Colors, local landmarks, brand details, purpose of the space, or anything to keep in mind…"></textarea></label>
+            <p class="field-help">Have wall photos ready? Send them along with your copied brief.</p>
+          </fieldset>
+        </form>
+        <aside class="preview" aria-labelledby="preview-title">
+          <div class="preview-head"><p class="eyebrow inverse">Your project / Live preview</p><h3 id="preview-title">Your mural brief</h3><p>Ready to copy when you've filled in the basics. The illustration shows wall proportions and palette, not a final design.</p></div>
+          <div class="wall-preview" aria-hidden="true"><div class="wall-grid"><div class="wall-box" id="wall-box"><svg viewBox="0 0 400 210" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="210" fill="var(--wall-sky)"/><circle cx="286" cy="66" r="33" fill="var(--wall-sun)"/><path d="M0 123 49 79 84 92 132 48 182 104 200 114 242 77 266 100 311 53 356 102 400 82V210H0Z" fill="var(--wall-mountain)"/><path d="M0 142 56 129 116 151 170 114 205 135 271 120 320 151 400 126V210H0Z" fill="var(--wall-ground)"/><path d="M0 183 90 169 151 185 242 150 304 177 400 157V210H0Z" fill="var(--wall-front)"/><path d="M74 183v-73m0 35H58q-10 0-10-10v-17m26 43h16q12 0 12-12v-19M341 189v-63m0 31h13q10 0 10-10v-13" fill="none" stroke="var(--wall-cactus)" stroke-width="9" stroke-linecap="round"/></svg></div></div><div class="wall-caption"><span id="wall-dim-label">Wall dimensions</span><span id="area-label">Not measured</span></div></div>
+          <div class="brief-content"><dl id="brief-summary" class="brief-summary"></dl><div id="brief-progress" class="progress-text"><span></span><span id="progress-label">Choose a project type and budget</span></div><button type="button" id="copy-brief" class="button copy-button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="1" stroke="currentColor" stroke-width="1.7"/><path d="M16 8V4H4v12h4" stroke="currentColor" stroke-width="1.7"/></svg> Copy project brief</button><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p><textarea id="manual-copy" class="manual-copy" readonly hidden aria-label="Project brief text"></textarea><p class="privacy-note">Nothing is submitted from this page. Paste the brief into a message to Tyler using your existing contact channel.</p><button type="button" class="reset-button" id="reset-brief">Clear and start over</button></div>
+        </aside>
+      </div>
+      <div class="brief-bottom"><span class="dot-outline"></span><p>Final pricing depends on the agreed design, wall surface, access, scale and schedule. Your brief is a starting point, not a booking or estimate.</p></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="#top"><img src="assets/mark.svg" alt="" width="33" height="33"><span>ISOGANIC<span class="brand-sub">MURAL STUDIO</span></span></a><p>Original murals by Tyler Currier · Arizona</p><a href="#brief">Start a project</a></div></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><div><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2></div><button type="button" class="dialog-close" aria-label="Close project details">×</button></div><img id="dialog-image" alt=""><div class="dialog-body"><p id="dialog-description"></p><button class="button" type="button" id="dialog-select">Use this direction</button></div></dialog>
+</body>
+</html>
